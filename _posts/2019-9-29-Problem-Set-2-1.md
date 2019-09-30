@@ -5,8 +5,8 @@ title: Problem Set 2.1
 
 # Problem Set 2.1
 
-
 **Problems 1-8 are about the row and column pictures of $$Ax = b$$.**
+
 ## Problem 1
 With $$A = I$$ (the identity matrix) draw the planes in the row picture. Three sides of a box meet at the solution $$\boldsymbol{x} = (x, y, z) = (2, 3, 4)$$:
 
@@ -177,3 +177,75 @@ $$
 $$
 
 Solving bottom to top, we see that $$t=2, z=1, y=0, x=0$$.
+
+
+
+**Problems 9-14 are about multiplying matrices and vectors.**
+
+## Problem 9
+
+Compute each $$A\boldsymbol{x}$$ by dot products of the rows with the column vector:
+
+### a)
+
+$$
+\begin{bmatrix}
+    1 & 2 & 4 \\
+    -2 & 3 & 1 \\
+    -4 & 1 & 2
+\end{bmatrix}
+\begin{bmatrix}
+    2 \\ 2 \\ 3
+\end{bmatrix}
+$$
+
+### b)
+
+$$
+\begin{bmatrix}
+    2 & 1 & 0 & 0 \\
+    1 & 2 & 1 & 0 \\
+    0 & 1 & 2 & 1 \\
+    0 & 0 & 1 & 2
+\end{bmatrix}
+\begin{bmatrix}
+    1 \\ 1 \\ 1 \\ 2
+\end{bmatrix}
+$$
+
+## Solution 9
+
+### a)
+
+$$
+\begin{bmatrix}
+    1 & 2 & 4 \\
+    -2 & 3 & 1 \\
+    -4 & 1 & 2
+\end{bmatrix}
+\begin{bmatrix}
+    2 \\ 2 \\ 3
+\end{bmatrix}
+=
+\begin{bmatrix}
+    18 \\ 5 \\ 0
+\end{bmatrix}
+$$
+
+### b)
+
+$$
+\begin{bmatrix}
+    2 & 1 & 0 & 0 \\
+    1 & 2 & 1 & 0 \\
+    0 & 1 & 2 & 1 \\
+    0 & 0 & 1 & 2
+\end{bmatrix}
+\begin{bmatrix}
+    1 \\ 1 \\ 1 \\ 2
+\end{bmatrix}
+=
+\begin{bmatrix}
+    3 \\ 4 \\ 5 \\ 5
+\end{bmatrix}
+$$
