@@ -152,21 +152,22 @@ The third plane doesn't **intersect** with $$\boldsymbol{L}$$. Since $$y$$ alway
 ## Problem 7
 In Problem 5 the columns are $$(1,1,2)$$ and $$(1,2,3)$$ and $$(1,1,2)$$. This is a "singular case" because the third column is ____.
  Find two combinations of the columns that give $$\boldsymbol{b} = (2,3,5)$$.
- This is only possible for $$\boldsymbol{b} = (4,6,c)$$ if $$c$$ is ____.
+ This is only possible for $$\boldsymbol{b} = (4,6,c)$$ if $$c$$ is $$\underline{ ? }$$.
 
- ## Solution 7
- Column 3 is identical to column 1. $$\boldsymbol{b} = (2,3,5)$$ can be expressed as column 1 + column 2 or as column 3 + column 2. This is only possible for $$\boldsymbol{b} = (4,6,c)$$ if $$c = 10$$.
+## Solution 7
+Column 3 is identical to column 1. $$\boldsymbol{b} = (2,3,5)$$ can be expressed as column 1 + column 2 or as column 3 + column 2. This is only possible for $$\boldsymbol{b} = (4,6,c)$$ if $$c = 10$$.
 
 Using mathematical notation, calling the columns $$x$$, $$y$$, and $$z$$, two solutions for $$\boldsymbol{b} = (2,3,5)$$ include $$(1,1,0)$$ and $$(0,1,1)$$
 
- > New Definition: A matrix is **singular** if two or more columns are identical.
+> New Definition: A matrix is **singular** if two or more columns are identical.
 
- ## Problem 8
- Normally 4 "planes" in 4-dimensional space meet at a ____. Normally 4 column vectors in 4-dimensional space can combine to produce $$\boldsymbol{b}$$. What combination of $$(1,0,0,0),(1,1,0,0),(1,1,1,0)$$ and $$(1,1,1,1)$$ produces $$\boldsymbol{b} = (3,3,3,2)$$? What 4 equations for $$x,y,z,t$$ are you solving?
+## Problem 8
+Normally 4 "planes" in 4-dimensional space meet at a ____. Normally 4 column vectors in 4-dimensional space can combine to produce $$\boldsymbol{b}$$. What combination of $$(1,0,0,0),(1,1,0,0),(1,1,1,0)$$ and $$(1,1,1,1)$$ produces $$\boldsymbol{b} = (3,3,3,2)$$? What 4 equations for $$x,y,z,t$$ are you solving?
 
- ## Solution 8
- Normally 4 hyperplanes in 4-dimensional space will meet at a **point**. To solve what combinations of these 4 vectors produce $$(3,3,3,2)$$ we must solve the following 4 equations: (Note that since these are column vectors, they are written from top to bottom in the equations.
- $$
+## Solution 8
+Normally 4 hyperplanes in 4-dimensional space will meet at a **point**. To solve what combinations of these 4 vectors produce $$(3,3,3,2)$$ we must solve the following 4 equations: (Note that since these are column vectors, they are written from top to bottom in the equations.
+
+$$
 \begin{array}{}
     x + y + z + t &=3 \\
     y + z + t &=3 \\
@@ -174,4 +175,5 @@ Using mathematical notation, calling the columns $$x$$, $$y$$, and $$z$$, two so
     t&=2
 \end{array}
 $$
+
 Solving bottom to top, we see that $$t=2, z=1, y=0, x=0$$.
