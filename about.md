@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a backend software engineer living in San Francisco! Dad to a wonderful
+daughter. In my free time I love playing Hearthstone and studying math.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[arigreenberg@gmail.com](mailto:arigreenberg@gmail.com)
